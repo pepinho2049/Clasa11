@@ -20,5 +20,6 @@ int main()
         }
 
     }
+    if(cate == 2) cout <<"nu exista";
     return 0;
 }
