@@ -1,0 +1,9 @@
+DACA folositi aceasta aplicatie urmati urmatorii pasi:
+
+1. Apasati pe   "File"
+2. Apoi dati click pe   "Open Folder" si selectati-va PROPRIUL FOLDER
+3. Finalizati actiunea
+
+Va multumesc pentru intelegere!!
+
+P.S: in caz contrar veti fi nevoiti sa anulati orice modificare adusa acestor fisiere si sa reveniti la starea initiala a acestora!
