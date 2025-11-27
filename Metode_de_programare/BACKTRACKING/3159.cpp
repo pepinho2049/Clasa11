@@ -2,9 +2,9 @@
 #include <algorithm>
 using namespace std;
 
-int n, cifre[10], x[10], uz[10], ind;
+int c,n, cifre[10], x[10], uz[10], ind;
 void afisare(){
-    for(int i = 1; i<=n; i++){
+    for(int i = 1; i<=c; i++){
         cout<<cifre[x[i]];
     }
     cout<<"\n";
@@ -15,7 +15,7 @@ void backtracking(int k){
             x[k] = i;
             uz[i] =1;
             if(cifre[x[1]] > 0){
-                if(k == n) afisare();
+                if(k == c) afisare();
                 else backtracking(k+1);
             }
             
@@ -24,7 +24,7 @@ void backtracking(int k){
     }
 }
 int main(){
-    cin >> n;
+    cin >> n >> c;
     int copie = n;
     while(copie){
         cifre[++ind] = copie%10;
