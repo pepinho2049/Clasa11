@@ -15,6 +15,7 @@ int divide(int v[], int st, int dr){
     return cmmdc(cmmdcstanga, cmmdcdreapta);
 }
 int main(){
+    int n;
     cin >> n;
     int v[n+1];
     for(int i = 0; i < n; i++)
