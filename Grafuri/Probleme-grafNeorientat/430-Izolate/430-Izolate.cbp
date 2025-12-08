@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="izolate.in" />
+		<Unit filename="izolate.out" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

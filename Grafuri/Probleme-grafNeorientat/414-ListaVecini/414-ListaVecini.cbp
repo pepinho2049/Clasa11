@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="listavecini.in" />
+		<Unit filename="listavecini.out" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
